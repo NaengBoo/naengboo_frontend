@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:naengboo_front_jw/screen/info_screen/daily_meal_screen.dart';
 import 'package:naengboo_front_jw/screen/home_screen/widgets/bottom_nav_bar.dart';
-
+import 'package:naengboo_front_jw/screen/info_screen/recipe_screen.dart';
 
 class RecipeListScreen extends StatefulWidget {
   final String theme;
@@ -134,47 +134,57 @@ class _RecipeListScreenState extends State<RecipeListScreen> {
                   var recipe = filteredRecipes[index];
                   bool isSelected = selectedRecipes.contains(recipe["title"]);
 
-                  return Card(
-                    child: ListTile(
-                      contentPadding: const EdgeInsets.all(10),
-                      leading: recipe["image"].isNotEmpty
-                          ? Image.network(recipe["image"], width: 80, height: 80, fit: BoxFit.cover)
-                          : Container(
-                        width: 80,
-                        height: 80,
-                        color: Colors.grey[300],
-                        child: const Icon(Icons.image_not_supported),
-                      ),
-                      title: Text(recipe["title"], style: const TextStyle(fontSize: 18, fontWeight: FontWeight.bold)),
-                      subtitle: Text("사용 가능 재료: ${widget.selectedIngredients.join(', ')}"),
-                      trailing: Wrap(
-                        spacing: 8,
-                        children: [
-                          //  찜하기 버튼
-                          IconButton(
-                            icon: Icon(
-                              recipe["favorite"] ? Icons.star : Icons.star_border,
-                              color: recipe["favorite"] ? Colors.yellow : Colors.grey,
+                  return GestureDetector(
+                    onTap: () {
+                      Navigator.push(
+                        context,
+                        MaterialPageRoute(
+                          builder: (context) => RecipeScreen(recipeTitle: recipe["title"]),
+                        ),
+                      );
+                    },
+                    child: Card(
+                      child: ListTile(
+                        contentPadding: const EdgeInsets.all(10),
+                        leading: recipe["image"].isNotEmpty
+                            ? Image.network(recipe["image"], width: 80, height: 80, fit: BoxFit.cover)
+                            : Container(
+                          width: 80,
+                          height: 80,
+                          color: Colors.grey[300],
+                          child: const Icon(Icons.image_not_supported),
+                        ),
+                        title: Text(recipe["title"], style: const TextStyle(fontSize: 18, fontWeight: FontWeight.bold)),
+                        subtitle: Text("사용 가능 재료: ${widget.selectedIngredients.join(', ')}"),
+                        trailing: Wrap(
+                          spacing: 8,
+                          children: [
+                            //  찜하기 버튼
+                            IconButton(
+                              icon: Icon(
+                                recipe["favorite"] ? Icons.star : Icons.star_border,
+                                color: recipe["favorite"] ? Colors.yellow : Colors.grey,
+                              ),
+                              onPressed: () => toggleFavorite(index),
                             ),
-                            onPressed: () => toggleFavorite(index),
-                          ),
-                          //  레시피 추가 버튼
-                          IconButton(
-                            icon: Icon(
-                              isSelected ? Icons.check_circle : Icons.add_circle_outline,
-                              color: isSelected ? Colors.green : Colors.grey,
+                            //  레시피 추가 버튼
+                            IconButton(
+                              icon: Icon(
+                                isSelected ? Icons.check_circle : Icons.add_circle_outline,
+                                color: isSelected ? Colors.green : Colors.grey,
+                              ),
+                              onPressed: () {
+                                setState(() {
+                                  if (isSelected) {
+                                    selectedRecipes.remove(recipe["title"]);
+                                  } else {
+                                    selectedRecipes.add(recipe["title"]);
+                                  }
+                                });
+                              },
                             ),
-                            onPressed: () {
-                              setState(() {
-                                if (isSelected) {
-                                  selectedRecipes.remove(recipe["title"]);
-                                } else {
-                                  selectedRecipes.add(recipe["title"]);
-                                }
-                              });
-                            },
-                          ),
-                        ],
+                          ],
+                        ),
                       ),
                     ),
                   );
