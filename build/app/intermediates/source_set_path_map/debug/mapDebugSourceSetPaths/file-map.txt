@@ -18,10 +18,10 @@ com.example.naengboo_front_jw.app-jetified-lifecycle-process-2.7.0-16 /Users/jae
 com.example.naengboo_front_jw.app-jetified-lifecycle-livedata-core-ktx-2.7.0-17 /Users/jaewook/.gradle/caches/8.10.2/transforms/ebeb29d7113d60e59d5e0acf92f847f3/transformed/jetified-lifecycle-livedata-core-ktx-2.7.0/res
 com.example.naengboo_front_jw.app-jetified-annotation-experimental-1.4.0-18 /Users/jaewook/.gradle/caches/8.10.2/transforms/f09a22cdd213028a38958888c7d16e20/transformed/jetified-annotation-experimental-1.4.0/res
 com.example.naengboo_front_jw.app-core-runtime-2.2.0-19 /Users/jaewook/.gradle/caches/8.10.2/transforms/ff849810dfe34a0ab790c402787c149e/transformed/core-runtime-2.2.0/res
-com.example.naengboo_front_jw.app-debug-20 /Users/jaewook/Desktop/My_NaengBoo/naengboo_front_jw/android/app/src/debug/res
-com.example.naengboo_front_jw.app-main-21 /Users/jaewook/Desktop/My_NaengBoo/naengboo_front_jw/android/app/src/main/res
-com.example.naengboo_front_jw.app-pngs-22 /Users/jaewook/Desktop/My_NaengBoo/naengboo_front_jw/build/app/generated/res/pngs/debug
-com.example.naengboo_front_jw.app-resValues-23 /Users/jaewook/Desktop/My_NaengBoo/naengboo_front_jw/build/app/generated/res/resValues/debug
-com.example.naengboo_front_jw.app-packageDebugResources-24 /Users/jaewook/Desktop/My_NaengBoo/naengboo_front_jw/build/app/intermediates/incremental/debug/packageDebugResources/merged.dir
-com.example.naengboo_front_jw.app-packageDebugResources-25 /Users/jaewook/Desktop/My_NaengBoo/naengboo_front_jw/build/app/intermediates/incremental/debug/packageDebugResources/stripped.dir
-com.example.naengboo_front_jw.app-debug-26 /Users/jaewook/Desktop/My_NaengBoo/naengboo_front_jw/build/app/intermediates/merged_res/debug/mergeDebugResources
+com.example.naengboo_front_jw.app-debug-20 /Users/jaewook/Desktop/NaengBoo_Frontend(git저장소아님!!)/naengboo_frontend/android/app/src/debug/res
+com.example.naengboo_front_jw.app-main-21 /Users/jaewook/Desktop/NaengBoo_Frontend(git저장소아님!!)/naengboo_frontend/android/app/src/main/res
+com.example.naengboo_front_jw.app-pngs-22 /Users/jaewook/Desktop/NaengBoo_Frontend(git저장소아님!!)/naengboo_frontend/build/app/generated/res/pngs/debug
+com.example.naengboo_front_jw.app-resValues-23 /Users/jaewook/Desktop/NaengBoo_Frontend(git저장소아님!!)/naengboo_frontend/build/app/generated/res/resValues/debug
+com.example.naengboo_front_jw.app-packageDebugResources-24 /Users/jaewook/Desktop/NaengBoo_Frontend(git저장소아님!!)/naengboo_frontend/build/app/intermediates/incremental/debug/packageDebugResources/merged.dir
+com.example.naengboo_front_jw.app-packageDebugResources-25 /Users/jaewook/Desktop/NaengBoo_Frontend(git저장소아님!!)/naengboo_frontend/build/app/intermediates/incremental/debug/packageDebugResources/stripped.dir
+com.example.naengboo_front_jw.app-debug-26 /Users/jaewook/Desktop/NaengBoo_Frontend(git저장소아님!!)/naengboo_frontend/build/app/intermediates/merged_res/debug/mergeDebugResources

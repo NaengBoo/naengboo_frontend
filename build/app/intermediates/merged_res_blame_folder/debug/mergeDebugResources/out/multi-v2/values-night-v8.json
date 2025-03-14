@@ -4,7 +4,7 @@
             "outputFile": "com.example.naengboo_front_jw.app-mergeDebugResources-24:/values-night-v8/values-night-v8.xml",
             "map": [
                 {
-                    "source": "/Users/jaewook/Desktop/My_NaengBoo/naengboo_front_jw/android/app/src/main/res/values-night/styles.xml",
+                    "source": "/Users/jaewook/Desktop/NaengBoo_Frontend(git저장소아님!!)/naengboo_frontend/android/app/src/main/res/values-night/styles.xml",
                     "from": {
                         "startLines": "3,14",
                         "startColumns": "4,4",
