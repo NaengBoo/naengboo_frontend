@@ -70,24 +70,6 @@ class _RecipeListScreenState extends State<RecipeListScreen> {
         title: Text("${widget.theme} 레시피", style: const TextStyle(fontWeight: FontWeight.bold)),
         backgroundColor: Colors.white,
         elevation: 0,
-        actions: [
-          TextButton(
-            onPressed: selectedRecipes.isNotEmpty
-                ? () {
-              Navigator.push(
-                context,
-                MaterialPageRoute(
-                  builder: (context) => DailyMealScreen(selectedRecipes: selectedRecipes),
-                ),
-              );
-            }
-                : null,
-            child: Text(
-              "추가하기",
-              style: TextStyle(color: selectedRecipes.isNotEmpty ? Colors.blue : Colors.grey),
-            ),
-          ),
-        ],
       ),
       body: Padding(
         padding: const EdgeInsets.all(16.0),

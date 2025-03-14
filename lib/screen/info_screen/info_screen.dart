@@ -32,7 +32,7 @@ class InfoScreen extends StatelessWidget {
                     context,
                     Icons.fastfood,
                     "daily meal logging",
-                    DailyMealScreen( selectedRecipes: [],), // 이동할 화면
+                    DaliyMealScreen(), // 이동할 화면
                   ),
                 ),
                 const SizedBox(width: 10),
