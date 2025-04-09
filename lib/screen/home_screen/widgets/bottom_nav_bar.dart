@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:naengboo_front_jw/screen/home_screen/home_screen.dart';
 import 'package:naengboo_front_jw/screen/recipe_search/recipe_search.dart';
-import 'package:naengboo_front_jw/screen/liked_recipe/liked_recipe.dart';
+import 'package:naengboo_front_jw/screen/favorited_recipe/favorite_recipe.dart';
 import 'package:naengboo_front_jw/screen/info_screen/info_screen.dart';
 
 class BottomNavBar extends StatelessWidget {
@@ -29,7 +29,7 @@ class BottomNavBar extends StatelessWidget {
         if (index == 2) {
           Navigator.push(
             context,
-            MaterialPageRoute(builder: (context) => LikedRecipe()),
+            MaterialPageRoute(builder: (context) => FavoriteRecipe()),
           );
         }
         if (index == 3) {
