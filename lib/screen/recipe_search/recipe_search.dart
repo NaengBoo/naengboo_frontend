@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:naengboo_front_jw/screen/home_screen/home_screen_nonlogin.dart';
 import 'package:naengboo_front_jw/screen/home_screen/widgets/bottom_nav_bar.dart';
 import 'package:naengboo_front_jw/screen/home_screen/home_screen.dart';
-import 'package:naengboo_front_jw/recipe_dummy_data.dart';
+import 'package:naengboo_front_jw/models/recipe_dummy_data.dart';
 
 class RecipeSearch extends StatefulWidget {
   @override
@@ -63,12 +63,12 @@ class _RecipeSearchState extends State<RecipeSearch> {
             subtitle: Text('재료: ${recipe.ingredients.join(', ')}'),
             trailing: IconButton(
               icon: Icon(
-                recipe.isFavorited ? Icons.favorite : Icons.favorite_border,
-                color: recipe.isFavorited ? Colors.red : null,
+                recipe.isFavorite ? Icons.favorite : Icons.favorite_border,
+                color: recipe.isFavorite ? Colors.red : null,
               ),
               onPressed: () {
                 setState(() {
-                  recipe.isFavorited = !recipe.isFavorited;
+                  recipe.isFavorite = !recipe.isFavorite;
                 });
               },
             ),

@@ -5,10 +5,32 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8aec4ecd-8825-44e9-8695-0a4a4efd91ed" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/lib/screen/favorited_recipe/favorite_recipe.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.dart_tool/flutter_build/00f0129d289e889daa57bf43d20719d6/.filecache" beforeDir="false" afterPath="$PROJECT_DIR$/.dart_tool/flutter_build/00f0129d289e889daa57bf43d20719d6/.filecache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.dart_tool/flutter_build/00f0129d289e889daa57bf43d20719d6/app.dill" beforeDir="false" afterPath="$PROJECT_DIR$/.dart_tool/flutter_build/00f0129d289e889daa57bf43d20719d6/app.dill" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.dart_tool/flutter_build/00f0129d289e889daa57bf43d20719d6/debug_android_application.stamp" beforeDir="false" afterPath="$PROJECT_DIR$/.dart_tool/flutter_build/00f0129d289e889daa57bf43d20719d6/debug_android_application.stamp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.dart_tool/flutter_build/00f0129d289e889daa57bf43d20719d6/flutter_assets.d" beforeDir="false" afterPath="$PROJECT_DIR$/.dart_tool/flutter_build/00f0129d289e889daa57bf43d20719d6/flutter_assets.d" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.dart_tool/flutter_build/00f0129d289e889daa57bf43d20719d6/kernel_snapshot_program.d" beforeDir="false" afterPath="$PROJECT_DIR$/.dart_tool/flutter_build/00f0129d289e889daa57bf43d20719d6/kernel_snapshot_program.d" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.dart_tool/flutter_build/00f0129d289e889daa57bf43d20719d6/kernel_snapshot_program.stamp" beforeDir="false" afterPath="$PROJECT_DIR$/.dart_tool/flutter_build/00f0129d289e889daa57bf43d20719d6/kernel_snapshot_program.stamp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/app/intermediates/assets/debug/mergeDebugAssets/flutter_assets/kernel_blob.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/app/intermediates/assets/debug/mergeDebugAssets/flutter_assets/kernel_blob.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/app/intermediates/compressed_assets/debug/compressDebugAssets/out/assets/flutter_assets/kernel_blob.bin.jar" beforeDir="false" afterPath="$PROJECT_DIR$/build/app/intermediates/compressed_assets/debug/compressDebugAssets/out/assets/flutter_assets/kernel_blob.bin.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/app/intermediates/cxx/Debug/4i1y7030/logs/arm64-v8a/generate_cxx_metadata_83_timing.txt" beforeDir="false" afterPath="$PROJECT_DIR$/build/app/intermediates/cxx/Debug/4i1y7030/logs/arm64-v8a/generate_cxx_metadata_83_timing.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/app/intermediates/cxx/Debug/4i1y7030/logs/armeabi-v7a/generate_cxx_metadata_83_timing.txt" beforeDir="false" afterPath="$PROJECT_DIR$/build/app/intermediates/cxx/Debug/4i1y7030/logs/armeabi-v7a/generate_cxx_metadata_83_timing.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/app/intermediates/cxx/Debug/4i1y7030/logs/x86/generate_cxx_metadata_83_timing.txt" beforeDir="false" afterPath="$PROJECT_DIR$/build/app/intermediates/cxx/Debug/4i1y7030/logs/x86/generate_cxx_metadata_83_timing.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/app/intermediates/cxx/Debug/4i1y7030/logs/x86_64/generate_cxx_metadata_76_timing.txt" beforeDir="false" afterPath="$PROJECT_DIR$/build/app/intermediates/cxx/Debug/4i1y7030/logs/x86_64/generate_cxx_metadata_76_timing.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/app/intermediates/flutter/debug/flutter_assets/kernel_blob.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/app/intermediates/flutter/debug/flutter_assets/kernel_blob.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/app/intermediates/flutter/debug/flutter_build.d" beforeDir="false" afterPath="$PROJECT_DIR$/build/app/intermediates/flutter/debug/flutter_build.d" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/app/intermediates/incremental/packageDebug/tmp/debug/dex-renamer-state.txt" beforeDir="false" afterPath="$PROJECT_DIR$/build/app/intermediates/incremental/packageDebug/tmp/debug/dex-renamer-state.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/app/outputs/apk/debug/app-debug.apk" beforeDir="false" afterPath="$PROJECT_DIR$/build/app/outputs/apk/debug/app-debug.apk" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/app/outputs/flutter-apk/app-debug.apk" beforeDir="false" afterPath="$PROJECT_DIR$/build/app/outputs/flutter-apk/app-debug.apk" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/app/outputs/flutter-apk/app-debug.apk.sha1" beforeDir="false" afterPath="$PROJECT_DIR$/build/app/outputs/flutter-apk/app-debug.apk.sha1" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/f872507f30e2ff2523f0f1d19160266e.cache.dill.track.dill" beforeDir="false" afterPath="$PROJECT_DIR$/build/f872507f30e2ff2523f0f1d19160266e.cache.dill.track.dill" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/recipe_dummy_data.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/models/recipe_dummy_data.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/screen/favorited_recipe/favorite_recipe.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/screen/favorite_recipe/favorite_recipe.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/screen/home_screen/home_screen.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/screen/home_screen/home_screen.dart" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lib/screen/home_screen/widgets/bottom_nav_bar.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/screen/home_screen/widgets/bottom_nav_bar.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/screen/liked_recipe/liked_recipe.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/screen/info_screen/recipe_list_screen.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/screen/info_screen/recipe_list_screen.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/screen/recipe_search/recipe_search.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/screen/recipe_search/recipe_search.dart" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -75,6 +97,7 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/lib/models" />
       <recent name="$PROJECT_DIR$/lib" />
     </key>
   </component>
@@ -123,7 +146,7 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="Dart">
-          <url>file://$PROJECT_DIR$/lib/screen/favorited_recipe/favorite_recipe.dart</url>
+          <url>file://$PROJECT_DIR$/lib/screen/favorite_recipe/favorite_recipe.dart</url>
           <option name="timeStamp" value="1" />
         </line-breakpoint>
       </breakpoints>
