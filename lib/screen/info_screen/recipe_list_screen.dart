@@ -104,8 +104,8 @@ class _RecipeListScreenState extends State<RecipeListScreen> {
                         children: [
                           IconButton(
                             icon: Icon(
-                              recipe.isFavorite ? Icons.star : Icons.star_border,
-                              color: recipe.isFavorite ? Colors.yellow : Colors.grey,
+                              recipe.isFavorite ? Icons.favorite : Icons.favorite_border,
+                              color: recipe.isFavorite ? Colors.red : Colors.grey,
                             ),
                             onPressed: () => toggleFavorite(recipe),
                           ),
