@@ -408,7 +408,7 @@
                     }
                 },
                 {
-                    "source": "/Users/jaewook/Desktop/NaengBoo_Frontend(git저장소아님!!)/naengboo_frontend/android/app/src/main/res/values/styles.xml",
+                    "source": "/Users/jaewook/Desktop/GitHub/naengboo_frontend/android/app/src/main/res/values/styles.xml",
                     "from": {
                         "startLines": "3,14",
                         "startColumns": "4,4",
@@ -635,7 +635,7 @@
             "outputFile": "com.example.naengboo_front_jw.app-debug-26:/values-night-v8_values-night-v8.arsc.flat",
             "map": [
                 {
-                    "source": "/Users/jaewook/Desktop/NaengBoo_Frontend(git저장소아님!!)/naengboo_frontend/android/app/src/main/res/values-night/styles.xml",
+                    "source": "/Users/jaewook/Desktop/GitHub/naengboo_frontend/android/app/src/main/res/values-night/styles.xml",
                     "from": {
                         "startLines": "3,14",
                         "startColumns": "4,4",
