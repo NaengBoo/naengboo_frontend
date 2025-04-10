@@ -60,7 +60,7 @@ class _RecipeSearchState extends State<RecipeSearch> {
           final recipe = dummyRecipes[index];
           return ListTile(
             title: Text(recipe.name),
-            subtitle: Text('재료: ${recipe.ingredients.join(', ')}'),
+            subtitle: Text('재료: ${recipe.requiredIngredients.join(', ')}'),
             trailing: IconButton(
               icon: Icon(
                 recipe.isFavorite ? Icons.favorite : Icons.favorite_border,

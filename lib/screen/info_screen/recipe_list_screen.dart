@@ -29,6 +29,12 @@ class _RecipeListScreenState extends State<RecipeListScreen> {
         return dummyRecipes.where((r) => r.isVegetarian).toList();
       case '고단백':
         return dummyRecipes.where((r) => r.isHighProtein).toList();
+      case '저탄고지':
+        return dummyRecipes.where((r) => r.isLowCarbHighFat).toList();
+      case '금방 만들 수 있는':
+        return dummyRecipes.where((r) => r.isQuickToMake).toList();
+      case '고칼로리':
+        return dummyRecipes.where((r) => r.isHighCalorie).toList();
       default:
         return dummyRecipes;
     }
@@ -40,21 +46,21 @@ class _RecipeListScreenState extends State<RecipeListScreen> {
     });
   }
 
-  @override
+  @override //여기가 우리 앱 핵심 알고리즘 (재료를 기반으로 어떤 메뉴를 추천할 것인지)
   Widget build(BuildContext context) {
-    List<RecipeDummyData> filteredRecipes = getFilteredByTheme();
+    List<RecipeDummyData> filteredRecipes = getFilteredByTheme();  // 1차 필터링 : 음식 테마에 따른
 
     if (searchQuery.isNotEmpty) {
       filteredRecipes = filteredRecipes
           .where((r) => r.name.toLowerCase().contains(searchQuery.toLowerCase()))
-          .toList();
+          .toList(); // 2차 필터링 : 검색어에 따른
     }
 
     if (showAvailableOnly) {
       filteredRecipes = filteredRecipes
           .where((r) =>
-          widget.selectedIngredients.any((ingredient) => r.ingredients.join(', ').contains(ingredient)))
-          .toList();
+          widget.selectedIngredients.any((ingredient) => r.requiredIngredients.join(', ').contains(ingredient)))
+          .toList(); // 3차 필터링 : 음식에 들어가는 재료가 하나라도 있다면 뜸
     }
 
     return Scaffold(
@@ -98,7 +104,7 @@ class _RecipeListScreenState extends State<RecipeListScreen> {
                     child: ListTile(
                       contentPadding: const EdgeInsets.all(10),
                       title: Text(recipe.name, style: const TextStyle(fontWeight: FontWeight.bold)),
-                      subtitle: Text('재료: ${recipe.ingredients.join(', ')}'),
+                      subtitle: Text('재료: ${recipe.requiredIngredients.join(', ')}'),
                       trailing: Wrap(
                         spacing: 8,
                         children: [
